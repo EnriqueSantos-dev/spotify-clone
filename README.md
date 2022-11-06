@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify Clone com Next Js
 
-## Getting Started
+### Nesse projeto eu clono a interface principal do Spotify utilizando Next js e tailwindcss para estlização. Para esse projeto eu fiz as páginas home, SignIn, SignUp e premium.
 
-First, run the development server:
 
+O projeto está accessível para todos na web e pode ser acessado polo link: 
+> [https://spotify-clone-three-delta.vercel.app/](https://spotify-clone-three-delta.vercel.app/)
+
+### Executando o projeto localmente
+
+Para executar o projeto em sua máquina é preciso que você tenha o node instalado na mesma, a partir das versões 16.x.x o você conseguirá executar sem problemas.
+
+Passos para executar na sua máquina.
+
+1.  Clone o projeto.
+```bash
+git clone https://github.com/EnriqueSantos-dev/spotify-clone.git
+```
+
+2.  Entre na pasta onde o projeto foi clonado - por padrão vai para spotify-clone.
+```bash
+cd spotify-clone
+```
+
+3. Abra o terminal dentro da pasta e execute o comando para baixar as dependências do projeto.
+```bash
+yarn ou npm install
+```
+4. Execute o projeto.
+
+>caso tenha usado npm install
 ```bash
 npm run dev
-# or
+```
+>caso tenha usado yarn
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Tudo certo dev, se tudo ocorreu bem o servidor foi executado e já pode acessado pelo localhost que apareceu no seu terminal.
