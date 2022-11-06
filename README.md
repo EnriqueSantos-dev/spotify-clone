@@ -3,12 +3,12 @@
 ### Nesse projeto eu clono a interface principal do Spotify utilizando Next js e tailwindcss para estlização. Para esse projeto eu fiz as páginas home, SignIn, SignUp e premium.
 
 
-O projeto está accessível para todos na web e pode ser acessado polo link: 
+O projeto está accessível para todos na web e pode ser acessado pelo link: 
 > [https://spotify-clone-three-delta.vercel.app/](https://spotify-clone-three-delta.vercel.app/)
 
 ### Executando o projeto localmente
 
-Para executar o projeto em sua máquina é preciso que você tenha o node instalado na mesma, a partir das versões 16.x.x o você conseguirá executar sem problemas.
+Para executar o projeto em sua máquina é preciso que você tenha o node instalado, a partir das versões 16.x do node você conseguirá executar sem problemas.
 
 Passos para executar na sua máquina.
 
