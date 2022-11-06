@@ -89,7 +89,7 @@ function NavigationMobile() {
             <li className="w-5 mt-[18px] mb-10 bg-white h-[2px]"></li>
             <li
               className={clsx(
-                "text-3xl sm:text-[36px] translate-x-28 pb-[25px] text-[#d9dadc]  hover:text-[#1ED760] transition-all  delay-300 ease-linear",
+                "text-2xl  sm:text-[28px] translate-x-28 pb-[25px] text-[#d9dadc]  hover:text-[#1ED760] transition-all  delay-300 ease-linear",
                 {
                   "opacity-0": !menuIsOpen,
                   "translate-x-0": menuIsOpen,
@@ -101,7 +101,7 @@ function NavigationMobile() {
             </li>
             <li
               className={clsx(
-                "text-3xl sm:text-[36px] translate-x-28 pb-[25px] text-[#d9dadc]  hover:text-[#1ED760] transition-all   delay-300 ease-linear",
+                "text-2xl  sm:text-[28px] translate-x-28 pb-[25px] text-[#d9dadc]  hover:text-[#1ED760] transition-all   delay-300 ease-linear",
                 {
                   "opacity-0": !menuIsOpen,
                   "translate-x-0": menuIsOpen,
