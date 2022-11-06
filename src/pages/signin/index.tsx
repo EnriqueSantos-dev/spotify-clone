@@ -24,7 +24,7 @@ const SignIn: NextPage<Props> = ({}) => {
           />
         </div>
       </header>
-      <main>
+      <main className="pb-[10px]">
         <div className="flex flex-col px-[10px] md:p-0 gap-[10px] justify-center items-center max-w-[450px] w-full mx-auto">
           <p className="text-black font-black text-sm">
             Para continuar, faça login no Spotify
