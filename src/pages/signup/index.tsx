@@ -36,14 +36,14 @@ const SignUp: NextPage = () => {
       </Head>
 
       <main>
-        <div className="flex flex-col mx-auto max-w-[450px]">
+        <div className="flex flex-col mx-auto max-w-[450px] px-6">
           <div className="w-full py-10 pb-8">
             <Logo
-              className="w-[132px] h-10 mx-auto"
+              className="w-[87px] h-[27px] lg:w-[130px] lg:h-10 mx-auto"
               color="#000"
               fill="black"
             />
-            <p className="mt-10 text-black font-bold text-[32px] leading-9 text-center">
+            <p className="mt-10 text-black font-bold text-[28px] sm:text-[32px] leading-9 text-center">
               Inscreva-se grátis e comece a curtir.
             </p>
           </div>
